@@ -1,0 +1,18 @@
+# Ignore log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all .env files
+.env
+
+# Ignore build directory
+build/
+
+# Ignore all files ending in .tmp
+*.tmp
+
+# Ignore all files in the temp directory, but not the temp/keep file
+temp/*
+!temp/keep
